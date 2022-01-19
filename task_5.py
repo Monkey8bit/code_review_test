@@ -14,7 +14,7 @@ try:
     z = inp_data / inp_data2
 
 except ZeroDivisionError:
-    raise OwnError('Была ошибка')
+    c = OwnError('Была ошибка')
 except ValueError:
     print("Вы ввели не число")
 except OwnError as err:
